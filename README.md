@@ -8,7 +8,7 @@ The data used for this project is acquired from: https://d396qusza40orc.cloudfro
 ```{r}
 source("run_analysis.R")
 ```
-* The script will generate a tidy data text file that meets the principles of tidy data in Hadley Wickham’s Tidy Data paper
+* The script will generate a tidy data text file that meets the principles of tidy data in [Hadley Wickham’s Tidy Data paper](http://vita.had.co.nz/papers/tidy-data.pdf)
 * Use the following code to read data `tidyData.txt` into R: 
 ```{r}
 data <- read.table("tidyData.txt", header = TRUE) 
