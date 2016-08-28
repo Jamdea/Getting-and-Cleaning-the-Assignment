@@ -39,4 +39,4 @@ names(uci_merge1) <- gsub("std", "Std", names(uci_merge1))
 tidyData <- group_by(uci_merge1, subjectID, activity) %>% summarise_each(funs(mean))
 
 # save the table to text file
-write.table(tidyData, file = "tidyData.txt")
+write.table(tidyData, file = "tidyData.txt", row.names=FALSE)
